@@ -16,12 +16,12 @@ describe("Calculator", function() {
       expect(calculator.calculate("3 + 5")).toEqual(8);
     });
 
-    it("should subtract", function() {
+    xit("should subtract", function() {
       expect(calculator.calculate("9 - 2")).toEqual(7);
     });
   });
 
-  describe("when given multiple-digit numbers", function() {
+  xdescribe("when given multiple-digit numbers", function() {
     it("should print out a single positive integer", function() {
       expect(calculator.calculate("123")).toEqual(123);
     });
