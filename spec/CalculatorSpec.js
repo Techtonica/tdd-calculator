@@ -1,5 +1,6 @@
 describe("Calculator", function() {
   var Calculator = require('../app/Calculator');
+  var calculator;
 
   beforeEach(function() {
     calculator = new Calculator();
