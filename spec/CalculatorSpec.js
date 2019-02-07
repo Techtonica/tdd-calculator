@@ -16,5 +16,9 @@ describe("Calculator", function() {
     it("should add two single-digit numbers", function() {
       expect(calculator.add("4,5")).toEqual(9);
     });
+
+    it("should understand a two-digit number", function() {
+      expect(calculator.add("42")).toEqual(42);
+    });
   });
 });
