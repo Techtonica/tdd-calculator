@@ -1,12 +1,9 @@
 function Calculator() {
 }
-Calculator.prototype.calculate = function(inputString) {
-    this.inputString = inputString;
-    this.answer = 0;
+Calculator.prototype.add = function(numbers) {
+  this.answer = 0;
 
-    this.answer = parseInt(inputString);
-
-    return this.answer;
+  return this.answer; // in the beginning, do the simplest possible thing to make one test pass
 }
 
 module.exports = Calculator;
