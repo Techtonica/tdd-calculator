@@ -7,6 +7,10 @@ Calculator.prototype.add = function(numbers) {
     this.answer = parseInt(numbers[0]);
   }
 
+  if(numbers[2]) {
+    this.answer += parseInt(numbers[2]);
+  }
+
   return this.answer;
 }
 

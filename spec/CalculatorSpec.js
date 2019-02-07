@@ -13,7 +13,7 @@ describe("Calculator", function() {
     it("should be able to return one single-digit integer", function() {
       expect(calculator.add("2")).toEqual(2);
     });
-    xit("should add two single-digit numbers", function() {
+    it("should add two single-digit numbers", function() {
       expect(calculator.add("4,5")).toEqual(9);
     });
   });
