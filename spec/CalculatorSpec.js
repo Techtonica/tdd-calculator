@@ -20,5 +20,8 @@ describe("Calculator", function() {
     it("should understand a two-digit number", function() {
       expect(calculator.add("42")).toEqual(42);
     });
+    it("should understand two two-digit numbers", function() {
+      expect(calculator.add("88,11")).toEqual(99);
+    });
   });
 });
