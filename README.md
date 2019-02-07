@@ -6,7 +6,7 @@ Created with help from the jasmine examples generated from https://github.com/ja
 
 ## Instructions
 
-Fork, then clone this repo! Don't forget to `cd` into it =
+Fork, then clone this repo! Don't forget to `cd` into it =)
 
 First make sure jasmine is installed. Let's install it globally (in this context, "global" refers to "this installation of node"). In your terminal, run:
 
